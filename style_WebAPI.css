@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    }
+    
+h1.judul-tabel {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #333;
+    }
+
+table.tabel-utama {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    }
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    }
+
+th {
+    background-color: #f2f2f2;
+    }
+/* Tombol ke atas dan ke bawah */
+#tombol-ke-bawah button, #tombol-ke-atas button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 20px auto;
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#tombol-ke-bawah button:hover, #tombol-ke-atas button:hover {
+    background-color: #0056b3;
+}
+
+/* Tombol Submit */
+#tombol-submit {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 20px 0;
+    margin-top: -10px;
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#tombol-submit:hover {
+    background-color: #0056b3;
+}
+
+.bagian-form-isi {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
