@@ -10,7 +10,7 @@
 
     <?php
     // Load file CSV, pastikan pathnya benar
-    $file = 'DataPribadi.csv';
+    $file = 'datapribadi.csv';
 
     // Membuka File csv dengan read mode
     if (($handle = fopen($file, "r")) !== FALSE) {
